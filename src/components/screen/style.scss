@@ -1,0 +1,41 @@
+.point-modal{
+  width: 580px !important;
+  .title{
+    font-size: 36px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #0D0D0D;
+    margin-top: 10px;
+  }
+  .text{
+    font-size: 30px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #666666;
+    margin: 10px 0 25px;
+    .text-a{
+      color: #D9AF5C;
+    }
+  }
+  .am-modal-button{
+    font-size: 36px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+  }
+  .am-modal-button:first-child{
+    color: #9B9B9B !important;
+  }
+  .am-modal-button:last-child{
+    color: #D9AF5C;
+  }
+  .am-modal-button-group-h:before{
+    background-color: #D7D7D7 !important;
+  }
+  .am-modal-button:last-child:before{
+    background-color: #D7D7D7 !important;
+  }
+  .repeat{
+    text-align: left;
+    // text-indent: 2em;
+  }
+}
